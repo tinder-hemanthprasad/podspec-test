@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/TinderApp/proto.git'
   s.author           = { 'Hemanth' => 'hemanth.prasad@gotinder.com' }
   s.source           = { :git => 'https://github.com/TinderApp/proto.git', :tag => s.version.to_s }
-  s.resources = 'keepalive/*.proto'
+  s.resources = '*.proto'
   s.dependency 'SwiftProtobuf', '~> 1.0'
 end
