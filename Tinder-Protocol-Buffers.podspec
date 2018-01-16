@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Tinder-Protocol-Buffers'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'podspec file to keep .proto files in sync'
   s.description      = 'This pod enables the ".proto" files to easily be installed via Cocoapods'
   s.homepage         = 'https://github.com/TinderApp/proto'
